@@ -27,7 +27,7 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -57,7 +57,7 @@
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="yen.20170221100209.1"><vh>@edit 20170308.md</vh></v>
-<v t="yen.20170108171733.81"><vh>@path pages</vh>
+<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
@@ -74,8 +74,8 @@
 <v t="yen.20170210221519.1"><vh>bubble</vh></v>
 </v>
 <v t="yen.20170120212354.1"><vh>calendar ex1</vh></v>
-<v t="yen.20170120212520.1"><vh>calendar ex2</vh></v>
 <v t="yen.20170120232548.1"><vh>calendar example</vh></v>
+<v t="yen.20170120212520.1"><vh>calendar ex2</vh></v>
 <v t="yen.20170123204227.1"><vh>印出月曆以及各課程上課日期</vh></v>
 <v t="yen.20170207092354.1"><vh>協同程式參考</vh></v>
 <v t="yen.20170124102405.1" a="E"><vh>chat</vh>
@@ -412,10 +412,10 @@ make.start()
 </t>
 <t tx="yen.20170120110024.8">## 2017Spring 協同產品設計實習
 
-### 虎科大機械設計工程系
+### 設計二甲 40423149 蔡悌仁
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40423149 蔡悌仁](https://github.com/40423149/2017springcd_hw/tree/gh-pages)
 &lt;/small&gt;
 
 [協同產品設計實習課程網誌](blog/index.html)
