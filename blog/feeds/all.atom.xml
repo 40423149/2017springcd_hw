@@ -192,6 +192,15 @@ mx1.enableDrag(None, dragX1, None)
 drawCurve();
 &lt;/script&gt;
 
+&lt;h3&gt;單連桿-零件&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Vn1eMMSJMrc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;單連桿-組裝&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/AYIdrA0_7-Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;單連桿-匯入vrep&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YBe71JVHP-c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;h2&gt;機械手臂動態模擬&lt;/h2&gt;
 &lt;!-- 導入 Brython 標準程式庫 3.3.1 --&gt;
 
@@ -325,16 +334,7 @@ def armPathFn(time, opts):
 
 cgo.animate(armGrp, initArm, armPathFn, animData)
 cgo.playAnimation()
-&lt;/script&gt;
-
-&lt;h3&gt;單連桿-零件&lt;/h3&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Vn1eMMSJMrc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3&gt;單連桿-組裝&lt;/h3&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/AYIdrA0_7-Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3&gt;單連桿-匯入vrep&lt;/h3&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YBe71JVHP-c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="HW"></category></entry><entry><title>協同產品設計實習 第三周作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-12T12:08:00+08:00</published><updated>2017-03-12T12:08:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-03-12:./xie-tong-chan-pin-she-ji-shi-xi-di-san-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="HW"></category></entry><entry><title>協同產品設計實習 第三周作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-12T12:08:00+08:00</published><updated>2017-03-12T12:08:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-03-12:./xie-tong-chan-pin-she-ji-shi-xi-di-san-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h3&gt;多連桿匯入Vrep(solvespace)&lt;/h3&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YTfPU92_yXg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
