@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-24T12:08:00+08:00</updated><entry><title>協同產品設計實習 第五週作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-wu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-24T12:08:00+08:00</published><updated>2017-03-24T12:08:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-03-24:./xie-tong-chan-pin-she-ji-shi-xi-di-wu-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-04-01T12:08:00+08:00</updated><entry><title>協同產品設計實習 第六週作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-liu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-04-01T12:08:00+08:00</published><updated>2017-04-01T12:08:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-04-01:./xie-tong-chan-pin-she-ji-shi-xi-di-liu-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;1.利用onshape畫出四連桿以及八連桿&lt;/h2&gt;
+&lt;h2&gt;2.將畫好的零件利用v-rep做連桿動作模擬&lt;/h2&gt;
+&lt;h1&gt;利用onshape畫出四連桿&lt;/h1&gt;
+&lt;p&gt;繪製四連桿零件&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/GeKegb4pGtI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;組合四連桿零件&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/sBmEn5s-k7k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;八連桿零件(1)
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/bpoXGgVEFCI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;八連桿零件(2)
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hf9xNuXgF9M" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;八連桿零件組立
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/GfI2SCNjpaM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;利用v-rep動作模擬&lt;/h2&gt;
+&lt;p&gt;四連桿動作模擬&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ipwQtPdeBH8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;八連桿動作模擬
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7ae6EJB36nc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;心得&lt;/h1&gt;
+&lt;p&gt;&lt;p&gt;在繪製八連桿及組合時非常花時間,尤其是利用v-rep做動作模擬好不容易才將連桿動作模擬弄好,最困難的部份應該是八連桿在調整各個桿件中的位置,一個調整不好可能會讓桿件無法作動.&lt;/p&gt;&lt;/p&gt;</summary><category term="HW"></category></entry><entry><title>協同產品設計實習 第五週作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-wu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-24T12:08:00+08:00</published><updated>2017-03-24T12:08:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-03-24:./xie-tong-chan-pin-she-ji-shi-xi-di-wu-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h2&gt;1. 利用v-rep設定單連桿運動&lt;/h2&gt;
 &lt;h1&gt;v-rep設定單連桿做作動影片&lt;/h1&gt;
