@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T00:00:00+08:00</updated><entry><title>協同產品設計實習 第十二週課堂作業</title><link href="./wcm10.5.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-11:./wcm10.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;齒輪配合13t-17t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T00:00:00+08:00</updated><entry><title>協同產品設計實習 第十二週課堂作業</title><link href="./wcm12.5.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-11:./wcm12.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;齒輪配合13t-17t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -200,7 +200,7 @@ ctx.translate(-x_g2, -y_g2)
 Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
 ctx.restore()
 
-&lt;/script&gt;</summary><category term="w10.5"></category></entry><entry><title>協同產品設計實習 第十週作業 part2</title><link href="./wcm10.5.html" rel="alternate"></link><published>2017-05-03T00:00:00+08:00</published><updated>2017-05-03T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-03:./wcm10.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;add加減乘除 part2&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;</summary><category term="w12.5"></category></entry><entry><title>協同產品設計實習 第十週作業 part2</title><link href="./wcm10.5.html" rel="alternate"></link><published>2017-05-03T00:00:00+08:00</published><updated>2017-05-03T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-03:./wcm10.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;add加減乘除 part2&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;Brython測試&lt;/p&gt;
