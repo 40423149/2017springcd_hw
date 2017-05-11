@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>協同產品設計實習 第十二週課堂作業 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>協同產品設計實習 第十二週課堂作業1 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -14,13 +14,13 @@
 
         <meta name="author" content="40423149" />
         <meta name="keywords" content="w12.5" />
-        <meta name="description" content="齒輪配合13t-17t" />
+        <meta name="description" content="test" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="協同產品設計實習 第十二週課堂作業"/>
+        <meta property="og:title" content="協同產品設計實習 第十二週課堂作業1"/>
         <meta property="og:url" content="./wcm12.5.html"/>
-        <meta property="og:description" content="齒輪配合13t-17t"/>
+        <meta property="og:description" content="test"/>
         <meta property="article:published_time" content="2017-05-11" />
             <meta property="article:section" content="Course" />
             <meta property="article:tag" content="w12.5" />
@@ -136,8 +136,8 @@
                 <h1>
                     <a href="./wcm12.5.html"
                        rel="bookmark"
-                       title="Permalink to 協同產品設計實習 第十二週課堂作業">
-                        協同產品設計實習 第十二週課堂作業
+                       title="Permalink to 協同產品設計實習 第十二週課堂作業1">
+                        協同產品設計實習 第十二週課堂作業1
                     </a>
                 </h1>
             </header>
@@ -156,11 +156,15 @@
 
 <span class="label label-default">Tags</span>
 	<a href="./tag/w125.html">w12.5</a>
-    
+    <span class="label label-default">Lang</span>
+	<a href="./wcm12.5.html">en</a>
+
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p><b><font color="blue">齒輪配合13t-17t</font></b></p>
+                <p><b><font color="blue">test</font></b></p>
 
+
+<!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
 
@@ -177,8 +181,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!-- 以下實際利用  Brython 繪圖-->
 
-<p>正齒輪嚙合的協同繪圖 (13t-17t):</p>
-<canvas id='gear3' width='800' height='400'></canvas>
+<canvas id='gear3' width='1000' height='600'></canvas>
 
 <script type="text/python3">
 # 導入 browser 模組中的 document, 並設為 doc 變數
@@ -312,9 +315,9 @@ ctx = canvas.getContext("2d")
 # 壓力角 pa 單位為角度
 pa = 20
 # 第1齒輪齒數
-n_g1 = 13
+n_g1 = 17
 # 第2齒輪齒數
-n_g2 = 17
+n_g2 = 13
 # 第3齒輪齒數
 n_g3 = 11
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
@@ -326,9 +329,9 @@ rp_g3 = m*n_g3/2
 #單一正齒輪繪圖呼叫格式 Spur(ctx).Gear(x, y, r, n, pa, "blue")
 # 開始繪製囓合齒輪輪廓
 # 繪圖第1齒輪的圓心座標, 因為希望繪圖佔去 canvas.width 的 80%, 所以兩邊各預留 10% 距離
-x_g1 = canvas.width*0.1+rp_g1
+x_g1 = canvas.width*0.05+rp_g1
 # y 方向繪圖區域上方預留 canvas.height 的 20%
-y_g1 = canvas.height*0.2+rp_g1
+y_g1 = canvas.height*0.1+rp_g1
 # 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
 x_g2 = x_g1 + rp_g1 + rp_g2
 y_g2 = y_g1
@@ -346,7 +349,7 @@ ctx.rotate(math.pi/2)
 # put it back
 ctx.translate(-x_g1, -y_g1)
 # 繪製第一個齒輪輪廓
-Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
+Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "purple")
 ctx.restore()
 
 # 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
@@ -357,9 +360,26 @@ ctx.translate(x_g2, y_g2)
 ctx.rotate(-math.pi/2-math.pi/n_g2)
 # put it back
 ctx.translate(-x_g2, -y_g2)
-Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
+Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "red")
 ctx.restore()
 
+# 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g3, y_g3)
+# rotate to engage
+# math.pi+math.pi/n_g2 為第2齒輪從順時鐘轉 90 度之後, 必須配合目前的標記線所作的齒輪 2 轉動角度, 要轉換到齒輪3 的轉動角度
+# 必須乘上兩齒輪齒數的比例, 若齒輪2 大, 則齒輪3 會轉動較快
+# 第1個 -math.pi/2 為將原先垂直的第3齒輪定位線逆時鐘旋轉 90 度
+# -math.pi/n_g3 則是第3齒與第2齒定位線重合後, 必須再逆時鐘多轉一齒的轉角, 以便進行囓合
+# (math.pi+math.pi/n_g2)*n_g2/n_g3 則是第2齒原定位線為順時鐘轉動 90 度, 
+# 但是第2齒輪為了與第1齒輪囓合, 已經距離定位線, 多轉了 180 度, 再加上第2齒輪的一齒角度, 因為要帶動第3齒輪定位, 
+# 這個修正角度必須要再配合第2齒與第3齒的轉速比加以轉換成第3齒輪的轉角, 因此乘上 n_g2/n_g3
+ctx.rotate(-math.pi/2-math.pi/n_g3+(math.pi+math.pi/n_g2)*n_g2/n_g3)
+# put it back
+ctx.translate(-x_g3, -y_g3)
+Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "black")
+ctx.restore()
 </script>
             </div>
             <!-- /.entry-content -->
@@ -377,7 +397,17 @@ ctx.restore()
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
                         <a href="./wcm12.5.html">
-                            協同產品設計實習 第十二週課堂作業
+                            協同產品設計實習 第十二週課堂作業1
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./wcm12.5.html">
+                            協同產品設計實習 第十二週課堂作業1
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./wcm11.5.html">
+                            20170506_齒輪嚙合傳動11-13齒
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -388,16 +418,6 @@ ctx.restore()
                     <li class="list-group-item">
                         <a href="./wcm10.5.html">
                             協同產品設計實習 第十週作業 part2
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./wcm10.html">
-                            協同產品設計實習 第十週作業 part1
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-di-liu-zhou-zuo-ye.html">
-                            協同產品設計實習 第六週作業
                         </a>
                     </li>
                 </ul>
