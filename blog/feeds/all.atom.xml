@@ -1072,7 +1072,7 @@ ctx.rotate(-math.pi/2-math.pi/n_g3+(math.pi+math.pi/n_g2)*n_g2/n_g3)
 ctx.translate(-x_g3, -y_g3)
 Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "black")
 ctx.restore()
-&lt;/script&gt;</summary><category term="w12.5"></category></entry><entry><title>協同產品設計實習 齒輪嚙合傳動11-13齒</title><link href="./wcm11.5.html" rel="alternate"></link><published>2017-05-06T00:00:00+08:00</published><updated>2017-05-06T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-05-06:./wcm11.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;2D 正齒輪傳動(2)11-13齒&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;</summary><category term="w12.5"></category></entry><entry><title>協同產品設計實習 齒輪嚙合傳動11-13齒</title><link href="./wcm11.5.html" rel="alternate"></link><published>2017-05-06T00:00:00+08:00</published><updated>2017-05-06T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-06:./wcm11.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;2D 正齒輪傳動(2)11-13齒&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;&lt;a href="https://40423149.github.io/2016fallcadp_hw/blog/40423149_chi-lun-nie-he-chuan-dong-11-17chi.html"&gt;齒輪嚙合傳動11-17齒&lt;/a&gt;&lt;/p&gt;
