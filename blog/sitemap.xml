@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-05-11T11:00:44-00:00</lastmod>
+<lastmod>2017-05-11T11:03:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-05-11T11:00:44-00:00</lastmod>
+<lastmod>2017-05-11T11:03:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-05-11T11:00:44-00:00</lastmod>
+<lastmod>2017-05-11T11:03:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-05-11T11:00:44-00:00</lastmod>
+<lastmod>2017-05-11T11:03:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,13 +137,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/w115.html</loc>
-<lastmod>2017-05-06T00:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/w125.html</loc>
 <lastmod>2017-05-11T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -158,15 +151,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/w105.html</loc>
-<lastmod>2017-05-03T00:00:00+08:06</lastmod>
+<loc>./tag/hw.html</loc>
+<lastmod>2017-04-01T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/w12.html</loc>
-<lastmod>2017-05-11T00:00:00+08:06</lastmod>
+<loc>./tag/w115.html</loc>
+<lastmod>2017-05-06T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -179,8 +172,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/hw.html</loc>
-<lastmod>2017-04-01T12:08:00+08:06</lastmod>
+<loc>./tag/w12.html</loc>
+<lastmod>2017-05-11T00:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/w105.html</loc>
+<lastmod>2017-05-03T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
