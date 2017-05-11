@@ -196,7 +196,7 @@ ctx.translate(-x_g2, -y_g2)
 Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
 ctx.restore()
 
-&lt;/script&gt;</summary><category term="w12"></category></entry><entry><title>協同產品設計實習 第十二週課堂作業1</title><link href="./wcm12.5.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-11:./wcm12.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;17t-13t-11t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;</summary><category term="w12"></category></entry><entry><title>協同產品設計實習 第十二週課堂作業1</title><link href="./wcm12.5.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-11:./wcm12.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;齒輪配合17t-13t-11t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
