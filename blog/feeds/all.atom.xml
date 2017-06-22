@@ -146,7 +146,15 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
 &lt;p&gt;建立子模組&lt;/p&gt;
 &lt;p&gt;4.&lt;/p&gt;
 &lt;p&gt;組合件繪製&lt;/p&gt;
-&lt;iframe src="./../data/w17/tim.html"width="600"height="600"&gt;&lt;/iframe&gt;</summary><category term="w17"></category></entry><entry><title>協同產品設計實習 第十二週課堂作業2</title><link href="./wcm12.5.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-11:./wcm12.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;齒輪配合17t-13t-11t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Sk8kKYFL_r8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src="./../data/w17/tim.html"width="600"height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;5.vrep 模擬&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UGXPdUa8aEc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;6.行走機構模擬與實作&lt;/p&gt;
+&lt;p&gt;7.上傳 Fossil SCM &lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>協同產品設計實習 第十二週課堂作業2</title><link href="./wcm12.5.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2017-05-11:./wcm12.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;齒輪配合17t-13t-11t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
